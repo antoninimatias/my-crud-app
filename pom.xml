@@ -25,6 +25,13 @@
 			<version>2.2</version> <!-- Ou outra versão conforme necessário -->
 		</dependency>
 
+		<!-- Dependência para a implementação do JPA, como o Hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.6.10.Final</version>
+		</dependency>
+
 		<!-- EclipseLink como provedor JPA -->
 		<dependency>
 			<groupId>org.eclipse.persistence</groupId>
